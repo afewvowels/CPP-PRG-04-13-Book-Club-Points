@@ -44,23 +44,23 @@ int main()
         {
             case 0: intPointsEarned = 0;
                 cout << "You earned "
-                << intPointsEarned
-                << " points this month.";
+                     << intPointsEarned
+                     << " points this month.";
                 break;
             case 1: intPointsEarned = 5;
                 cout << "You earned "
-                << intPointsEarned
-                << " points this month.";
+                     << intPointsEarned
+                     << " points this month.";
                 break;
             case 2: intPointsEarned = 15;
                 cout << "You earned "
-                << intPointsEarned
-                << " points this month.";
+                     << intPointsEarned
+                     << " points this month.";
                 break;
             case 3: intPointsEarned = 30;
                 cout << "You earned "
-                << intPointsEarned
-                << " points this month.";
+                     << intPointsEarned
+                     << " points this month.";
                 break;
         }
     }
