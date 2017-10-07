@@ -25,10 +25,10 @@ using namespace std;
 int main()
 {
     int intBooksPurchased,
-    intPointsEarned;
+        intPointsEarned;
     
     cout << "Please enter the number of books\n"
-    << "that you purchased this month:\n";
+         << "that you purchased this month:\n";
     cin >> intBooksPurchased;
     while(!cin || intBooksPurchased < 0 || intBooksPurchased > 10)
     {
@@ -68,8 +68,8 @@ int main()
     {
         intPointsEarned = 60;
         cout << "You earned "
-        << intPointsEarned
-        << " points this month.";
+             << intPointsEarned
+             << " points this month.";
     }
     else
     {
